@@ -3,7 +3,7 @@
 
 /*FUNZIONI
 
-Una definizione è costituita da due parti:
+Una definizione è costituita da due parti: 
 
     -la dichiarazione della funzione
     -il corpo della funzione, racchiuso tra parentesi graffe e comprendente zero o più di queste componenti:
