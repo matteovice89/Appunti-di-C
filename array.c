@@ -26,4 +26,21 @@ int main()
 	int v[10];
 	int dim = ARRAY_SIZE(v);
 	printf("dimensione array v (non dipende dal tipo di dato) %d\n ",dim);
+	
+	char vet[4];
+    char vet1[] = { 'a', 'b', 'c', '\n' };
+    char vet2[4] = { 'a' };
+    char vet3[] = { '0', 0 };
+    dim=ARRAY_SIZE(vet1);
+    for (int i=0; i<dim; i++) {
+        printf("%c",vet1[i]);
+       
+        }
+    printf("\n \n"); /*stampo tabella ascii */
+    for (unsigned char c = 0; c < 128; c++) {
+    printf("[%d] [%x] %c\n", c, c, c);
+  }
+    
+
+    
 }
