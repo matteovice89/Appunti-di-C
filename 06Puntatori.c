@@ -24,6 +24,13 @@ int main()
     printf("adr: %p\n",p2);
     printf("valore: %d\n",*p2);
     //copio giusto giusto quant dal secondo puntatore
-    
+    //PUNTATORI ED ARRAY - ARITMETICA DI PUNTATORI
+    int num[5]={1,5,2,3,8};
+    int *pa = num; //con gli array faccio senza specificare &num 
+    printf("l: %d %p\n",*pa, pa);//stampo il valore prima cella ed indirizzoa
+    pa++; //scatto alla cella successiva
+    printf("l: %d %p\n",*pa, pa);
+    pa++;  
+    printf("l: %d %p\n",*pa, pa);
     return 0;
 }
