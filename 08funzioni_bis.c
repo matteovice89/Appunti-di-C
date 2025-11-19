@@ -25,7 +25,7 @@ int main()
     saluto();//chiamo la funzione 
     saluto2();
     somma(10,30);//
-    int m=molt(10,30);
+    int m=molt(10,30); //passaggio parametri per valore
     printf("m= %d\n",m);
     return 0;
 }
